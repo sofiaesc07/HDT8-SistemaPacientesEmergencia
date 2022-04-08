@@ -24,12 +24,12 @@ public class SistemaPacientes {
                 System.out.println("");
                 System.out.println("1. Java Collection Framework");
                 System.out.println("2. VectorHeap");
-                System.out.println("0. Salir");
+                System.out.println("3. Salir");
                 System.out.println("");
                 System.out.print("Escriba el numero de su seleccion: ");
                 int sel = sc.nextInt();
                 sc.nextLine();
-                while(sel < 0 || sel > 2) {
+                while(sel < 1 || sel > 3) {
                 	System.out.print("Seleccion fuera de rango. Intente de nuevo:");
                     sel = sc.nextInt();
                     sc.nextLine();
