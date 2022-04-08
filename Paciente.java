@@ -1,5 +1,5 @@
 public class Paciente implements Comparable<Paciente>{
-	private String name;
+	String name;
 	private String description;
 	private String priority;
 	
