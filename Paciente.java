@@ -1,3 +1,7 @@
+/**
+* Autor: Majo Gil (20337) y Sofia Escobar (20489) 
+*/
+
 public class Paciente implements Comparable<Paciente>{
 	String name;
 	private String description;

@@ -1,8 +1,12 @@
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
+/**
+* Autor: Majo Gil (20337) y Sofia Escobar (20489) 
+* Descripcion: Main del programa encargado de correrlo y concatenar todas las clases
+*/
 
-public class SistemaPacientes {
+public class Main {
 
 	/**
 	 * @param args

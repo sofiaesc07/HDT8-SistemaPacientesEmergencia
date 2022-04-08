@@ -1,4 +1,5 @@
 /**
+* Autor: Majo Gil (20337) y Sofia Escobar (20489) 
 * Codigo de apoyo: 	https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
 */
 

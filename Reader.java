@@ -2,6 +2,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.PriorityQueue;
 
+/**
+* Autor: Majo Gil (20337) y Sofia Escobar (20489) 
+*/
+
 public class Reader {
 	
 	PriorityQueue<Paciente> pacientesJCF = new PriorityQueue<>();

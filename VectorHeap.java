@@ -1,6 +1,7 @@
 import java.util.Vector;
 
 /**
+* Autor: Majo Gil (20337) y Sofia Escobar (20489) 
 * Codigo de apoyo: 	https://www.geeksforgeeks.org/implement-priorityqueue-comparator-java/
 */
 
