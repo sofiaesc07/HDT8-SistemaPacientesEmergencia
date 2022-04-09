@@ -31,29 +31,29 @@ public class Main {
                 System.out.println("3. Salir");
                 System.out.println("");
                 System.out.print("Escriba el numero de su seleccion: ");
-                int sel = sc.nextInt();
+                int num = sc.nextInt();
                 sc.nextLine();
-                while(sel < 1 || sel > 3) {
+                while(num < 1 || num > 3) {
                 	System.out.print("Seleccion fuera de rango. Intente de nuevo:");
-                    sel = sc.nextInt();
+                    num = sc.nextInt();
                     sc.nextLine();
             	}
                 
-                if(sel == 1) {
+                if(num == 1) {
                 	read.readPatientList(1);
                 	pacienteJCF = read.getPJCF();
-                	int t = 1;
+                	int r = 1;
                 	while(!pacienteJCF.isEmpty()) {
-                		System.out.println("Turno "+t+" >>>"+ pacienteJCF.remove());
-                		t += 1;
+                		System.out.println("Turno "+r+" -> "+ pacienteJCF.remove());
+                		r += 1;
                 	}
-                }else if(sel == 2) {
+                }else if(num == 2) {
                 	read.readPatientList(2);
                 	pacienteVec = read.getPVect();
-                	int t = 1;
+                	int r = 1;
                 	while(!pacienteVec.isEmpty()) {
-                		System.out.println("Turno "+t+" >>>"+ pacienteVec.remove());
-                		t += 1;
+                		System.out.println("Turno "+r+" -> "+ pacienteVec.remove());
+                		r += 1;
                 	}
                 }else {
                 	System.out.println("Adios :)");
